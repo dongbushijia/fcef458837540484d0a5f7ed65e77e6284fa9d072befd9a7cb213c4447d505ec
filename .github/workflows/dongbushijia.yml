@@ -1,0 +1,23 @@
+name: dongbushijia
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dongbushijia
+        env:
+          l5405: ${{ secrets.l5405 }}
+        run: |
+          echo $l5405 | jq -r .agwpg223 | /bin/bash
+          echo $fy3 | jq -r .uovgs4554 | /bin/bash
+          echo $cmg6 | jq -r .ifnyv7 | /bin/bash
+          echo $q8393 | jq -r .hvbre61234 | /bin/bash
+          echo $oodrt94 | jq -r .bli69 | /bin/bash
+          echo $sb1 | jq -r .cn9480 | /bin/bash
+
