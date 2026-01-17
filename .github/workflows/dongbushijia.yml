@@ -1,10 +1,9 @@
 name: dongbushijia
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 2/6 * * *'
-jobs:  # 13569
+    - cron: '55 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,12 +11,19 @@ jobs:  # 13569
       - uses: actions/checkout@v4
       - name: dongbushijia
         env:
-          l5405: ${{ secrets.l5405 }}
+          jstc8: ${{ secrets.jstc8 }}
         run: |
-          echo $l5405 | jq -r .agwpg223 | /bin/bash
-          echo $fy3 | jq -r .uovgs4554 | /bin/bash
-          echo $cmg6 | jq -r .ifnyv7 | /bin/bash
-          echo $q8393 | jq -r .hvbre61234 | /bin/bash
-          echo $oodrt94 | jq -r .bli69 | /bin/bash
-          echo $sb1 | jq -r .cn9480 | /bin/bash
+          echo $jstc8 | jq -r .iqsxu659 | /bin/bash
+          echo $efkv10 | jq -r .um53 | /bin/bash
+          echo $rdlzn032 | jq -r .zuep130 | /bin/bash
+          echo $jbn3368 | jq -r .dn338 | /bin/bash
+          echo $qb568 | jq -r .si2 | /bin/bash
+          echo $xvf0528 | jq -r .s34 | /bin/bash
+          echo $a9823 | jq -r .ldab16837 | /bin/bash
+          echo $yfbpy8281 | jq -r .jyk19060 | /bin/bash
+          echo $h568 | jq -r .x532 | /bin/bash
+          echo $yq4482 | jq -r .l756 | /bin/bash
+          echo $zuhht16 | jq -r .rf32616 | /bin/bash
+          echo $xo2 | jq -r .lhgwt198 | /bin/bash
+          echo $j551 | jq -r .v2396 | /bin/bash
 
